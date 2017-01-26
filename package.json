@@ -1,0 +1,39 @@
+{
+  "name": "react-modal-component",
+  "version": "0.0.1",
+  "description": "A set of modals to use in reactJS",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "babel ./src --out-dir ./lib --copy-files",
+    "prepublish": "npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/manueloteroeiras/react-modal-component.git"
+  },
+  "keywords": [
+    "modal",
+    "react",
+    "component"
+  ],
+  "author": "Manuel Otero",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/manueloteroeiras/react-modal-component/issues"
+  },
+  "homepage": "https://github.com/manueloteroeiras/react-modal-component#readme",
+  "dependencies": {
+    "color": "^0.11.3",
+    "react": "^15.3.0",
+    "react-dom": "^15.3.0",
+    "react-fontawesome": "^1.1.0",
+    "react-helmet": "^3.1.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.11.4",
+    "babel-preset-es2015": "^6.13.2",
+    "babel-preset-react": "^6.11.1",
+    "babel-preset-stage-2": "^6.18.0"
+  }
+}
