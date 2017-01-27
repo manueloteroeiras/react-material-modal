@@ -1,6 +1,6 @@
 {
-  "name": "react-modal-component",
-  "version": "0.0.1",
+  "name": "react-material-modal",
+  "version": "0.0.2",
   "description": "A set of modals to use in reactJS",
   "main": "lib/index.js",
   "scripts": {
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/manueloteroeiras/react-modal-component.git"
+    "url": "git+https://github.com/manueloteroeiras/react-material-modal.git"
   },
   "keywords": [
     "modal",
@@ -20,14 +20,14 @@
   "author": "Manuel Otero",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/manueloteroeiras/react-modal-component/issues"
+    "url": "https://github.com/manueloteroeiras/react-material-modal/issues"
   },
-  "homepage": "https://github.com/manueloteroeiras/react-modal-component#readme",
+  "homepage": "https://github.com/manueloteroeiras/react-material-modal#readme",
   "dependencies": {
     "color": "^0.11.3",
     "react": "^15.3.0",
     "react-dom": "^15.3.0",
-    "react-fontawesome": "^1.1.0",
+    "react-fontawesome": "^1.5.0",
     "react-helmet": "^3.1.0"
   },
   "devDependencies": {
