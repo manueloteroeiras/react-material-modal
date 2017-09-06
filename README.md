@@ -8,7 +8,7 @@
  <Modal
     size="md"
     title="Modal Header"
-    show={ this.state.showing }
+    showing={ this.state.showing }
     close={ ()=> this.setState({ showing : false }) }
     headerStyle={{ color: '#fff', backgroundColor: '#00796b' }}
     bodyStyle={{ color: '#000', backgroundColor: '#26a69a' }}>
